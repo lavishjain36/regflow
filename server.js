@@ -9,7 +9,7 @@ const PORT = process.env.PORT;
 const MONGO_URL = process.env.MONGO_URL;
 
 //instance of express app
-// const app=express();
+const app=express();
 // const PORT=9002;
 app.use(cors());
 app.use(express.json());
